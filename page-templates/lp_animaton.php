@@ -18,6 +18,7 @@ Template Post Type: post,page
 	<link rel="stylesheet" href="../wp-content/themes/01/css/new_lp.css" type="text/css">
 	<script src="<?php echo get_stylesheet_directory_uri() ?>/js/lp.js" defer></script>
 
+	<?php wp_head(); ?>
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w, d, s, l, i) {
@@ -59,7 +60,7 @@ Template Post Type: post,page
 		}
 	</script>
 
-	<?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?> <?php sydney_do_schema('html'); ?>>
@@ -106,13 +107,13 @@ Template Post Type: post,page
 			</div>
 			<a href="<?php echo esc_url(home_url()); ?>/purchase/?plan=3623">
 				<div class="f-banner-img">
-					<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/02/lp_02_01.png">
+					<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/06/lp_240628_01_2.jpg">
 				</div>
 			</a>
 		</div>
 
 		<div id="overlay">
-
+			ㅁ
 		</div>
 
 		<div id=" content" class="page-wrap">
@@ -122,7 +123,7 @@ Template Post Type: post,page
 					<!-- アニメLPページへCTAボタンの追加 -->
 					<div id="fix-cta-btn" class="fix-cta-container">
 						<a href="<?php echo esc_url(home_url()); ?>/purchase/?plan=3623">
-							<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/02/lp_03.png" alt="">
+							<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/06/lp_240628_03.png" alt="">
 						</a>
 					</div>
 
