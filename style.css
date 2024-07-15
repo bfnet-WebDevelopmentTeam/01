@@ -1,0 +1,30 @@
+/* 
+ Theme Name:   01
+ Theme URI:    001
+ Description:  01
+ Author:       onecoin_admin
+ Author URI:   https://bf-net.jp/onecoin-test/
+ Template:     sydney
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+
+
+/* @import url("css/top_navi.css"); */
+
+a img:hover {
+  opacity: 1;
+}
+
+body.postid-2172 .entry-content .wp-block-group__inner-container h2.wp-block-heading, body.postid-2815 .entry-content .wp-block-group__inner-container h2.wp-block-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body.postid-2172 .entry-content .wp-block-group__inner-container h3.llms-h3, body.postid-2815 .entry-content .wp-block-group__inner-container h3.llms-h3 {
+    margin-bottom: 0;
+}
+
+

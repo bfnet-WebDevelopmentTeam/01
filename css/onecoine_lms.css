@@ -1,0 +1,1269 @@
+#wpmem_restricted_msg {
+  width: 90%;
+  margin: 0 auto;
+}
+body .sydney-offcanvas-menu.toggled {
+  background: #fff;
+}
+.page-id-19 #wpmem_login fieldset {
+  margin: 4em auto;
+}
+.row #reg_box {
+  margin: 0 auto;
+}
+.entry-content #wpmem_login {
+  width: 80%;
+  margin: 0 auto;
+}
+#wpmem_login fieldset legend {
+  margin-bottom: 24px;
+}
+#wpmem_login fieldset .button_div {
+  text-align: left;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
+#wpmem_login fieldset .button_div input[type="submit"] {
+  width: 70%;
+  margin-left: auto;
+}
+#wpmem_login fieldset .link-text {
+  text-align: left;
+}
+
+/* checkout画面のスタイル */
+
+/* .llms-form-field.type-email.llms-cols-6.llms-cols-last,
+.llms-form-field.type-password.llms-cols-6.llms-cols-last,
+.llms-form-field.type-tel.llms-cols-12.llms-cols-last {
+  display: none;
+} */
+/* .llms-form-field.type-tel.llms-cols-12.llms-cols-last {
+  display: none;
+} */
+
+/* パスワード可視化のスタイル */
+.llms-form-field.type-password.llms-cols-6.llms-is-required {
+  position: relative;
+}
+#btn_passview_1 {
+  display: block;
+  position: absolute;
+  top: 39px;
+  border-radius: 3px;
+  left: 230px;
+  padding: 0 4px;
+}
+#btn_passview_2 {
+  display: none;
+}
+
+.llms-order-summary li {
+  font-weight: bold;
+  padding: 0 10px 10px;
+}
+
+.llms-order-summary li:nth-child(3),
+.llms-order-summary li:last-child {
+  display: none;
+}
+.llms-form-field .llms-required {
+  margin-left: 0;
+}
+#llms-product-purchase-form .llms-checkout-col .llms-field-input {
+  padding: 0 10px;
+}
+ul.llms-payment-gateways .llms-payment-gateway .llms-form-field {
+  margin-bottom: 8px;
+}
+ul.llms-payment-gateways
+  .llms-payment-gateway
+  .llms-form-field
+  .llms-stripe-card.StripeElement {
+  background-color: #fff;
+}
+.my_page_box,
+.llms-sd-tab {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.llms-student-dashboard section.llms-sd-section {
+  border-bottom: none;
+}
+.page-id-19 .entry-footer,
+.postid-2172 .entry-footer,
+.postid-2815 .entry-footer {
+  margin-top: 0;
+}
+.page-id-19 .my_page_box {
+  width: 95%;
+  margin: 72px auto 0;
+}
+
+.page-id-19 .llms-student-dashboard .llms-sd-section-title {
+  font-size: 32px;
+}
+.llms-sd-header,
+.cart-empty,
+.wp-block-heading,
+.site-info,
+#llms_lost_password_message,
+.llms-sd-section-footer {
+  display: none;
+}
+/* ダッシュボード画面でのLMSフォームの非表示(login wpのリダイレクトフォームを使用) */
+.page-id-19 .llms-person-login-form-wrapper {
+  display: none;
+}
+body.postid-2172 .entry-header,
+body.postid-2815 .entry-header {
+  margin-bottom: 0;
+}
+.postid-2172 .wp-block-heading,
+.postid-2815 .wp-block-heading {
+  display: block;
+}
+.page-id-19 .llms-student-dashboard {
+  margin-bottom: 72px;
+}
+.lifterlms {
+  width: 95%;
+  margin: 0 auto;
+}
+.single-lesson .clear {
+  display: none;
+}
+.single-llms_quiz .llms-quiz-results .llms-quiz-results-history {
+  float: none;
+  width: inherit;
+}
+
+/* クイズページ */
+.single-lesson #llms_start_quiz {
+  width: 100%;
+  max-width: 620px;
+  font-size: 16px;
+  padding: 16px;
+}
+.single-llms_quiz #llms_start_quiz {
+  font-size: 16px;
+  margin: 0 16px 16px 0;
+}
+.single-llms_quiz .llms-next-lesson {
+  font-size: 16px;
+}
+.llms-quiz-results-history {
+  display: none;
+}
+.llms-quiz-meta-item.llms-attempts {
+  display: none;
+}
+.single-llms_quiz .content-area .post-wrap {
+  padding-right: 0;
+}
+
+.llms-question-wrapper .llms-question-text,
+.toggle-answer .llms-question-title {
+  font-size: 24px;
+}
+.llms-question-wrapper .llms-question-text {
+  font-weight: bold;
+}
+.percentage .caption {
+  display: none;
+}
+.single-llms_quiz .llms-quiz-results-aside .llms-quiz-meta-info {
+  display: none;
+}
+
+.single-llms_quiz #llms-quiz-nav #llms-quiz-counter .llms-sep {
+  display: inline-block;
+}
+
+.llms-sd-items {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 10px 20px;
+}
+.llms-course-navigation .llms-last-to-course h5,
+.llms-course-navigation .llms-last-to-course h6 {
+  text-align: right;
+}
+.llms-sd-link,
+.llms-lesson-preview .llms-pre-text,
+.llms-lesson-preview .llms-lesson-title {
+  position: relative;
+}
+.llms-sd-link::after,
+.llms-lesson-preview .llms-pre-text::after,
+.single-lesson .llms-lesson-preview .llms-lesson-title::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -1px;
+  background-color: #2295ff;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: 0.3s;
+}
+.llms-lesson-preview .llms-pre-text::after,
+.single-lesson .llms-lesson-preview .llms-lesson-title::after {
+  width: 70%;
+  bottom: -8px;
+}
+.llms-course-nav:last-child .llms-lesson-preview .llms-pre-text::after,
+.llms-course-nav:last-child .llms-lesson-preview .llms-lesson-title::after {
+  left: auto;
+  right: 0;
+  transform-origin: right top;
+}
+.llms-sd-link:hover {
+  transition: 0.3s;
+  font-weight: bold;
+}
+.single-lesson .llms-lesson-preview .llms-lesson-link:hover {
+  background: transparent;
+}
+.llms-lesson-preview .llms-lesson-link:hover .llms-pre-text,
+.llms-lesson-preview .llms-lesson-link:hover .llms-lesson-title {
+  transition: 0.3s;
+  font-weight: bold;
+}
+.llms-sd-link:hover::after,
+.llms-lesson-preview .llms-lesson-link:hover .llms-pre-text::after,
+.llms-lesson-preview .llms-lesson-link:hover .llms-lesson-title::after {
+  transform: scale(1, 1);
+}
+.llms-sep,
+.llms-my-memberships,
+.llms-loop-item-footer,
+.llms-sd-header:nth-child(2) {
+  display: none;
+}
+.llms-my-courses {
+  background: #fff;
+  padding: 24px;
+}
+.llms-featured-image,
+.llms-access-plan-schedule,
+.llms-access-plan-expiration {
+  display: none !important;
+}
+.llms-loop-item-content {
+  padding: 10px 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  background-color: #2295ff;
+}
+.page-id-19 .llms-loop-item-content .llms-loop-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.llms-loop-item-content:hover {
+  background-color: #fff;
+  transition: 0.5s;
+}
+.llms-loop-item-content:hover .llms-loop-title {
+  color: #2295ff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+#llms_billing_country,
+#llms_billing_state,
+.llms-field-input {
+  font-size: 18px;
+  margin: 0 auto;
+}
+.llms-course-progress,
+.llms-categories p,
+.login_status,
+.header-elements,
+.quiz-footer,
+.link-text-username {
+  display: none !important;
+}
+.llms-sd-header {
+  margin-bottom: 10px !important;
+}
+a.llms-button-secondary {
+  color: #fff;
+}
+.llms-course-progress {
+  width: 80%;
+  grid-row: 2;
+}
+.test_list {
+  grid-row: 5;
+}
+.llms-syllabus-wrapper {
+  grid-row: 4;
+}
+.course_tittle {
+  grid-row: 1;
+}
+.llms-tracks {
+  grid-row: 3;
+}
+.test_list h3 {
+  text-align: left;
+  border-bottom: 2px solid #f40519;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 15px;
+  color: #f40519;
+}
+.top_navi ul li.sp {
+  display: none;
+}
+
+.llms-form-field.type-reset button:not(.auto),
+.llms-form-field.type-button button:not(.auto),
+.llms-form-field.type-submit button:not(.auto) {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.llms-form-field label {
+  display: block;
+}
+.llms-checkout {
+  background: #efefef;
+}
+
+.notice_box {
+  width: 80%;
+  margin: 0 auto;
+}
+.notice_box p {
+  margin: 0 auto 1em;
+}
+.contact_01 {
+  width: 800px;
+  margin: 2em auto;
+}
+.contact_01 input {
+  width: 100%;
+  margin: 0.5em auto;
+  height: 2em;
+}
+.contact_01 textarea {
+  width: 100%;
+}
+.contact-ok {
+  line-height: 180%;
+  margin: 2em auto;
+}
+.llms-progress-bar,
+.progress__indicator {
+  display: none;
+}
+#llms-privacy-policy,
+h4.llms-form-heading,
+.woocommerce-customer-details address,
+.woocommerce-column__title {
+  display: none;
+}
+
+footer.llms-checkout-confirm {
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0 10px;
+}
+.woocommerce > p.woocommerce-info,
+.return-to-shop,
+div#the_hint_title,
+.llms-notice,
+.llms-gateway-description,
+.llms-coupon-wrapper,
+.woocommerce-MyAccount-navigation {
+  display: none;
+}
+input.buttons {
+  width: 10em;
+  background: #d65050;
+  border: 0px;
+  color: #fff;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+.llms-sd-section .llms-sd-section-footer {
+  margin-bottom: 1em;
+}
+.llms-loop-list.cols-3 .llms-loop-item {
+  width: 50%;
+}
+.woocommerce-MyAccount-content {
+  width: 100% !important ;
+  padding: 2em 0%;
+  background: #fff;
+  line-height: 180%;
+}
+.woocommerce-MyAccount-content p,
+.woocommerce-order-details__title {
+  padding: 0 1em;
+}
+.woocommerce table.shop_table tr {
+  border: 0px;
+}
+mark {
+  background: #fff;
+}
+.woocommerce table.shop_table {
+  width: 90% !important ;
+  margin: 0 auto 2em;
+}
+#whatnew_list,
+.order-again {
+  display: none;
+}
+#llms_lost_password_message {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  line-height: 180%;
+}
+.wpmem_msg {
+  margin: 0 auto;
+}
+.woocommerce table.my_account_orders .button {
+  margin-right: 1em;
+}
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.EditAccount {
+  width: 80%;
+  margin: 0 auto;
+}
+#reg_box .reg_inner02 {
+  width: 100%;
+}
+#wpmem_reg,
+.reg_inner02 #wpmem_login {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reg_inner01 {
+  width: 50%;
+}
+
+h4.llms-loop-title {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px !important;
+  color: #000;
+}
+#masthead-mobile,
+.align-right {
+  width: 100%;
+}
+
+#content .page-wrap {
+  padding-top: -83px !important;
+}
+
+.postid-2172 .page-wrap,
+.postid-2815 .page-wrap {
+  background-color: #fff;
+  /* padding-top: 83px; */
+}
+.postid-2172 article.hentry,
+.postid-2815 article.hentry {
+  margin-bottom: 0;
+}
+.postid-2172 .content-inner,
+.postid-2815 .content-inner {
+  box-shadow: none;
+}
+.postid-2172 h3.llms-h3.llms-section-title,
+.postid-2815 h3.llms-h3.llms-section-title {
+  cursor: pointer;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  padding: 15px 8px 15px 36px;
+  position: relative;
+}
+
+/* コースシラバスのアコーディオン用 */
+.lesson-wrapper {
+  transition: 0.5s;
+}
+.lesson-wrapper.hide {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+}
+.lesson-wrapper.active {
+  height: auto;
+  opacity: 1;
+}
+
+.postid-2172 .llms-syllabus-wrapper,
+.postid-2815 .llms-syllabus-wrapper {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.postid-2172 .lesson-container,
+.postid-2815 .lesson-container {
+  width: 49%;
+}
+.single-course .llms-lesson-preview .llms-lesson-link {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-decoration: none;
+}
+.single-course .llms-lesson-preview .llms-main {
+  float: none;
+}
+.single-course .entry-content .llms-main h5.llms-lesson-title {
+  margin: 0;
+}
+.single-course .llms-lesson-preview .llms-extra {
+  float: none;
+}
+.single-course .clear {
+  display: none;
+}
+.postid-2172 .lesson-container h3.llms-h3.llms-section-title::before,
+.postid-2815 .lesson-container h3.llms-h3.llms-section-title::before {
+  content: "";
+  display: inline-block;
+  width: 20px; /*画像の幅*/
+  height: 20px; /*画像の高さ*/
+  background-image: url("https://onecoin-study.net/wp-content/uploads/2023/12/lesson-icon-video.png");
+  background-size: cover;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.postid-2172
+  .lesson-container:nth-child(7)
+  h3.llms-h3.llms-section-title::before,
+.postid-2172
+  .lesson-container:nth-child(8)
+  h3.llms-h3.llms-section-title::before,
+.postid-2172
+  .lesson-container:nth-child(9)
+  h3.llms-h3.llms-section-title::before,
+.postid-2172
+  .lesson-container:nth-child(10)
+  h3.llms-h3.llms-section-title::before,
+.postid-2172
+  .lesson-container:nth-child(11)
+  h3.llms-h3.llms-section-title::before {
+  content: "";
+  display: inline-block;
+  width: 20px; /*画像の幅*/
+  height: 20px; /*画像の高さ*/
+  background-image: url("https://onecoin-study.net/wp-content/uploads/2023/12/lesson-icon-blue.png");
+  background-size: cover;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+}
+
+.postid-2815
+  .lesson-container:nth-child(7)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(8)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(9)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(10)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(11)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(12)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(13)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(14)
+  h3.llms-h3.llms-section-title::before,
+.postid-2815
+  .lesson-container:nth-child(15)
+  h3.llms-h3.llms-section-title::before,
+.lesson-container:nth-child(16) h3.llms-h3.llms-section-title::before {
+  content: "";
+  display: inline-block;
+  width: 20px; /*画像の幅*/
+  height: 20px; /*画像の高さ*/
+  background-image: url("https://onecoin-study.net/wp-content/uploads/2023/12/lesson-icon-blue.png");
+  background-size: cover;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+}
+
+.postid-2172 .lesson-container:first-child {
+  order: 1;
+}
+.postid-2172 .lesson-container:nth-child(2) {
+  order: 3;
+}
+.postid-2172 .lesson-container:nth-child(3) {
+  order: 5;
+}
+.postid-2172 .lesson-container:nth-child(4) {
+  order: 7;
+}
+.postid-2172 .lesson-container:nth-child(5) {
+  order: 9;
+}
+.postid-2172 .lesson-container:nth-child(6) {
+  order: 11;
+}
+.postid-2172 .lesson-container:nth-child(7) {
+  order: 2;
+}
+.postid-2172 .lesson-container:nth-child(8) {
+  order: 4;
+}
+.postid-2172 .lesson-container:nth-child(9) {
+  order: 6;
+}
+.postid-2172 .lesson-container:nth-child(10) {
+  order: 8;
+}
+.postid-2172 .lesson-container:nth-child(11) {
+  order: 10;
+}
+.postid-2815 .lesson-container:first-child {
+  order: 1;
+}
+.postid-2815 .lesson-container:nth-child(2) {
+  order: 3;
+}
+.postid-2815 .lesson-container:nth-child(3) {
+  order: 5;
+}
+.postid-2815 .lesson-container:nth-child(4) {
+  order: 7;
+}
+.postid-2815 .lesson-container:nth-child(5) {
+  order: 9;
+}
+.postid-2815 .lesson-container:nth-child(6) {
+  order: 11;
+}
+.postid-2815 .lesson-container:nth-child(7) {
+  order: 2;
+}
+.postid-2815 .lesson-container:nth-child(8) {
+  order: 4;
+}
+.postid-2815 .lesson-container:nth-child(9) {
+  order: 6;
+}
+.postid-2815 .lesson-container:nth-child(10) {
+  order: 8;
+}
+.postid-2815 .lesson-container:nth-child(11) {
+  order: 10;
+}
+.postid-2815 .lesson-container:nth-child(12) {
+  order: 12;
+}
+.postid-2815 .lesson-container:nth-child(13) {
+  order: 13;
+}
+.postid-2815 .lesson-container:nth-child(14) {
+  order: 14;
+}
+.postid-2815 .lesson-container:nth-child(15) {
+  order: 15;
+}
+.postid-2815 .lesson-container:nth-child(16) {
+  order: 16;
+}
+
+.postid-2172 section.llms-access-plans.cols-2,
+.postid-2815 section.llms-access-plans.cols-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-2172 .lesson-container:nth-child(7) h3 {
+  background-color: #ff8c22;
+}
+.post-2172 .lesson-container:nth-child(8) h3 {
+  background-color: #ff8c22;
+}
+.post-2172 .lesson-container:nth-child(9) h3 {
+  background-color: #ff8c22;
+}
+.post-2172 .lesson-container:nth-child(10) h3 {
+  background-color: #ff8c22;
+}
+.post-2172 .lesson-container:nth-child(11) h3 {
+  background-color: #ff8c22;
+}
+.single-course .llms-syllabus-wrapper .llms-lesson-counter {
+  display: none;
+}
+.single-course .llms-lesson-preview .llms-lesson-complete {
+  font-size: 28px;
+}
+
+.llms-lesson-preview .llms-lesson-complete {
+  margin-bottom: 0;
+}
+
+.postid-2815 .lesson-container:nth-child(7) h3 {
+  background-color: #ff8c22;
+}
+.postid-2815 .lesson-container:nth-child(8) h3 {
+  background-color: #ff8c22;
+}
+.postid-2815 .lesson-container:nth-child(9) h3 {
+  background-color: #ff8c22;
+}
+.postid-2815 .lesson-container:nth-child(10) h3 {
+  background-color: #ff8c22;
+}
+.postid-2815 .lesson-container:nth-child(11) h3 {
+  background-color: #ff8c22;
+}
+.postid-2815 .lesson-container:nth-child(12) h3 {
+  background-color: #ff2226;
+}
+.postid-2815 .lesson-container:nth-child(13) h3 {
+  background-color: #ff2226;
+}
+.postid-2815 .lesson-container:nth-child(14) h3 {
+  background-color: #ff2226;
+}
+.postid-2815 .lesson-container:nth-child(15) h3 {
+  background-color: #ff2226;
+}
+.postid-2815 .lesson-container:nth-child(16) h3 {
+  background-color: #ff2226;
+}
+.post-2172 .llms-access-plans.cols-1,
+.postid-2815 .llms-access-plans.cols-1 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postid-2815
+  .llms-access-plans.cols-2
+  .llms-access-plan
+  .llms-access-plan-featured {
+  display: none;
+}
+
+.single-lesson .content-area .post-wrap,
+.single-lesson .contact-form-wrap,
+.single-quiz .content-area .post-wrap {
+  padding-right: 0;
+}
+.llms-lesson-preview {
+  width: 100%;
+}
+
+/* コースカタログページ */
+.post-type-archive-course .llms-loop-item-content {
+  padding: 0 0 16px;
+}
+.post-type-archive-course
+  #main
+  > div
+  > ul
+  > li:nth-of-type(2).llms-loop-item
+  > div.llms-loop-item-content {
+  background-color: #fff;
+}
+
+.post-type-archive-course .thumbnail {
+  margin-bottom: 16px;
+}
+.post-type-archive-course .content-area .llms-loop-item .llms-loop-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 960px) {
+  #wpmem_login fieldset .button_div input[type="submit"] {
+    width: 53%;
+  }
+
+  #masthead-mobile {
+    width: 100%;
+  }
+  #wpmem_reg {
+    width: 90%;
+  }
+
+  .reg_inner01 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .wpmem_msg {
+    margin-top: 5em;
+  }
+  .llms-sd-header {
+    border: 0px !important ;
+  }
+  .lifterlms {
+    margin: 0em auto 5em;
+    background: #efefef;
+  }
+  .llms-checkout {
+    background: #efefef;
+  }
+  .llms-form-field.llms-payment-gateway-option label + span.llms-description {
+    display: block;
+    margin-left: 0;
+  }
+
+  /* ダッシュボード画面のスタイル */
+  .page-id-19 .my_page_box {
+    display: none;
+  }
+  .page-id-19 .llms-student-dashboard {
+    margin-bottom: 0;
+  }
+
+  .page-id-19 .llms-student-dashboard .llms-sd-section-title {
+    font-size: 24px;
+  }
+  .page-id-19 .llms-loop-item-content .llms-loop-title {
+    font-size: 18px;
+  }
+  .llms-sep,
+  .llms-my-memberships,
+  .llms-loop-item-footer {
+    display: none;
+  }
+  .llms-my-courses {
+    background: #fff;
+    padding: 16px;
+  }
+  .link-text-username .llms-featured-image {
+    display: none !important;
+  }
+  .llms-syllabus-wrapper {
+    width: 100%;
+  }
+  .post-wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .llms-tracks {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .course .llms-course-progress {
+    margin: 40px auto;
+  }
+  .llms-progress {
+    display: block;
+  }
+
+  div.whatsnew {
+    width: 96%;
+    margin: 0 auto 5em;
+    line-height: 200%;
+  }
+  .member_box_inner02 #wpmem_login {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .llms-course-progress {
+    width: 80%;
+    grid-row: 2;
+  }
+  .test_list {
+    grid-row: 5;
+  }
+  .llms-syllabus-wrapper {
+    grid-row: 4;
+  }
+  .course_tittle {
+    grid-row: 1;
+    width: 96%;
+  }
+  .llms-tracks {
+    grid-row: 3;
+  }
+  .test_list h3 {
+    text-align: left;
+    border-bottom: 2px solid #f40519;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 15px;
+    color: #f40519;
+  }
+
+  .postid-2172 .llms-lesson-link,
+  .postid-2815 .llms-lesson-link {
+    width: 100%;
+  }
+  .progress__indicator {
+    float: none;
+  }
+  .llms-progress-bar,
+  .progress__indicator,
+  .woocommerce-customer-details address {
+    display: none;
+  }
+  .top_navi ul li.pc {
+    display: none;
+  }
+  .top_navi ul li.sp {
+    display: block;
+  }
+  .llms-checkout-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .notice_box {
+    width: 80%;
+  }
+  .notice_box p {
+    margin: 0 auto 1em;
+  }
+
+  .contact_01 {
+    width: 96%;
+    margin: 8em auto;
+  }
+  .contact_01 input {
+    width: 100%;
+    margin: 0.5em auto;
+    height: 2em;
+  }
+  .contact_01 textarea {
+    width: 100%;
+  }
+  .contact-ok {
+    line-height: 180%;
+    margin: 2em auto;
+  }
+  .contents-tittle {
+    margin: 7em auto 0;
+    width: 96%;
+  }
+  .news-area,
+  .contents-body {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .txt p {
+    width: 90%;
+  }
+  .entry-header,
+  #llms-privacy-policy {
+    display: none;
+  }
+
+  .postid-2172 .entry-header,
+  .postid-2815 .entry-header {
+    display: block;
+    width: 100%;
+  }
+  .llms-order-summary li {
+    padding: 0 0 10px;
+  }
+  footer.llms-checkout-confirm {
+    background: #f0f0f0;
+    margin: 0 auto;
+    padding: 0;
+  }
+  footer.llms-form-fields {
+    background-color: transparent;
+  }
+  .llms-checkout-section-content {
+    margin: 0 auto;
+  }
+  input.buttons {
+    width: 10em;
+    background: #d65050;
+    border: 0px;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 5px;
+  }
+  .llms-loop-list.cols-3 .llms-loop-item {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .llms-form-field {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .entry-header {
+    padding-left: 1em;
+  }
+  #whatnew_list {
+    display: block;
+    height: 5em;
+  }
+  .llms-extra {
+    width: 20% !important;
+  }
+
+  .step-txt {
+    padding-left: 10px;
+  }
+  .woocommerce-order-details {
+    margin-top: 1em;
+  }
+  .woocommerce table.my_account_orders .button {
+    margin: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* .single-course .entry-content {
+    margin-top: -22px;
+  } */
+  .llms-lesson-preview .llms-pre-text::after,
+  .single-lesson .llms-lesson-preview .llms-lesson-title::after {
+    width: 100%;
+  }
+  .postid-2172 .lesson-container,
+  .postid-2815 .lesson-container {
+    width: 100%;
+  }
+  .postid-2172 .lesson-container:nth-child(2) {
+    order: 2;
+  }
+  .postid-2172 .lesson-container:nth-child(3) {
+    order: 3;
+  }
+  .postid-2172 .lesson-container:nth-child(4) {
+    order: 4;
+  }
+  .postid-2172 .lesson-container:nth-child(5) {
+    order: 5;
+  }
+  .postid-2172 .lesson-container:nth-child(6) {
+    order: 6;
+  }
+  .postid-2172 .lesson-container:nth-child(7) {
+    order: 7;
+  }
+  .postid-2172 .lesson-container:nth-child(8) {
+    order: 8;
+  }
+  .postid-2172 .lesson-container:nth-child(9) {
+    order: 9;
+  }
+  .postid-2172 .lesson-container:nth-child(10) {
+    order: 10;
+  }
+  .postid-2172 .lesson-container:nth-child(11) {
+    order: 11;
+  }
+  .postid-2815 .lesson-container:nth-child(2) {
+    order: 2;
+  }
+  .postid-2815 .lesson-container:nth-child(3) {
+    order: 3;
+  }
+  .postid-2815 .lesson-container:nth-child(4) {
+    order: 4;
+  }
+  .postid-2815 .lesson-container:nth-child(5) {
+    order: 5;
+  }
+  .postid-2815 .lesson-container:nth-child(6) {
+    order: 6;
+  }
+  .postid-2815 .lesson-container:nth-child(7) {
+    order: 7;
+  }
+  .postid-2815 .lesson-container:nth-child(8) {
+    order: 8;
+  }
+  .postid-2815 .lesson-container:nth-child(9) {
+    order: 9;
+  }
+  .postid-2815 .lesson-container:nth-child(10) {
+    order: 10;
+  }
+  .postid-2815 .lesson-container:nth-child(11) {
+    order: 11;
+  }
+  .postid-2815 .lesson-container:nth-child(12) {
+    order: 12;
+  }
+  .postid-2815 .lesson-container:nth-child(13) {
+    order: 13;
+  }
+  .postid-2815 .lesson-container:nth-child(14) {
+    order: 14;
+  }
+  .postid-2815 .lesson-container:nth-child(15) {
+    order: 15;
+  }
+  .postid-2815 .lesson-container:nth-child(16) {
+    order: 16;
+  }
+  .page-id-19 .llms-student-dashboard .llms-sd-section-title {
+    font-size: 24px;
+  }
+  .single-lesson .llms-lesson-preview .llms-pre-text,
+  .single-lesson .llms-lesson-preview .llms-lesson-title {
+    font-size: 14px;
+  }
+
+  .llms-my-courses {
+    padding: 16px;
+  }
+
+  /* クイズページ */
+  .llms-question-wrapper .llms-question-text,
+  .toggle-answer .llms-question-title {
+    font-size: 18px;
+  }
+  .llms-question-wrapper ol.llms-question-choices li.llms-choice label {
+    padding: 10px 0;
+  }
+  .llms-question-wrapper ol.llms-question-choices li.llms-choice .llms-marker {
+    font-size: 18px;
+  }
+  .llms-question-wrapper
+    ol.llms-question-choices
+    li.llms-choice
+    .llms-choice-text {
+    font-size: 16px;
+  }
+
+  /* コースカタログページ */
+  .post-type-archive-course .content-area .page-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 720px) {
+  #wpmem_login fieldset .div_text,
+  #wpmem_login fieldset .button_div,
+  #wpmem_login fieldset .link-text,
+  #wpmem_login fieldset .button_div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 599px) {
+  .post-2172 .llms-access-plans.cols-1,
+  .postid-2815 .llms-access-plans.cols-1 {
+    width: 100%;
+  }
+  .postid-2172 section.llms-access-plans.cols-2,
+  .postid-2815 section.llms-access-plans.cols-2 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  #wpmem_login fieldset .button_div {
+    flex-wrap: wrap;
+  }
+  #wpmem_login fieldset .button_div input[type="submit"] {
+    width: 100%;
+  }
+  .page-id-19 .llms-student-dashboard .llms-sd-section-title {
+    font-size: 20px;
+  }
+
+  /* コースカタログページ */
+  .post-type-archive-course .content-area .page-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 545px) {
+  /* クイズページ */
+  #llms-next-question,
+  #llms-complete-quiz {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #main-v {
+    height: 76vh;
+    margin-top: 3em;
+  }
+  .main_imgsp {
+    display: block;
+    background: url("../img/top_mainsp380.png") no-repeat bottom right/cover;
+    height: 72vh;
+    text-align: center;
+  }
+
+  .main_imgsp_box01 h2 {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 1em 0 0 0.5em;
+    line-height: 140%;
+  }
+
+  .main_imgsp_txt01 {
+    font-size: 16px;
+    padding: 5px 15px;
+    margin-left: 0.5em;
+    background: #fff;
+    color: #f40519;
+    max-width: 28vh;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  .main_imgsp_txt01 span {
+    font-size: 70%;
+  }
+  .main_imgsp_txt02 {
+    font-size: 16px;
+    padding: 0.5em 0 0 0.5em;
+    font-weight: bold;
+  }
+  .main_imgsp_box01 {
+    width: 70vw;
+    height: 35vh;
+    margin: 0 auto 0 0;
+    text-align: left;
+    line-height: 150%;
+    background: url("../img/bg_01.png") no-repeat bottom/cover;
+    color: #fff;
+  }
+}
