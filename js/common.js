@@ -1,5 +1,3 @@
-"use strict";
-
 jQuery(document).ready(function ($) {
   jQuery(".top_navi").stellarNav({
     theme: "right",

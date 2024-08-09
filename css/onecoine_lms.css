@@ -32,17 +32,6 @@ body .sydney-offcanvas-menu.toggled {
   text-align: left;
 }
 
-/* checkout画面のスタイル */
-
-/* .llms-form-field.type-email.llms-cols-6.llms-cols-last,
-.llms-form-field.type-password.llms-cols-6.llms-cols-last,
-.llms-form-field.type-tel.llms-cols-12.llms-cols-last {
-  display: none;
-} */
-/* .llms-form-field.type-tel.llms-cols-12.llms-cols-last {
-  display: none;
-} */
-
 /* パスワード可視化のスタイル */
 .llms-form-field.type-password.llms-cols-6.llms-is-required {
   position: relative;
@@ -337,6 +326,8 @@ a.llms-button-secondary {
 }
 .llms-checkout {
   background: #efefef;
+  display: flex;
+  justify-content: space-between;
 }
 
 .notice_box {
@@ -813,7 +804,6 @@ h4.llms-loop-title {
   font-weight: bold;
 }
 
-
 @media screen and (max-width: 960px) {
   #wpmem_login fieldset .button_div input[type="submit"] {
     width: 53%;
@@ -1051,6 +1041,9 @@ h4.llms-loop-title {
 }
 
 @media only screen and (max-width: 767px) {
+  .llms-checkout {
+    flex-direction: column;
+  }
   /* .single-course .entry-content {
     margin-top: -22px;
   } */
