@@ -756,3 +756,12 @@ function course_catalog_thumbnail()
 <?php }
 
 add_action('lifterlms_before_loop_item', 'course_catalog_thumbnail');
+
+// メンテナンスモード切り替え
+// function maintenance_mode()
+// {
+// 	if (!current_user_can('edit_themes') || !is_user_logged_in()) {
+// 		wp_die('ただいま緊急メンテナンス中です。本日17時以降に再開いたしますので、ご迷惑をお掛けしますが今しばらくお待ちください。');
+// 	}
+// }
+// add_action('get_header', 'maintenance_mode');
