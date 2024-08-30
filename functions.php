@@ -777,4 +777,5 @@ add_action('lifterlms_before_loop_item', 'course_catalog_thumbnail');
 // }
 // add_action('get_header', 'maintenance_mode');
 
-
+// コメントを無効化
+add_filter( 'comments_open', '__return_false' );
