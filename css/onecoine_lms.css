@@ -515,7 +515,6 @@ h4.llms-loop-title {
 }
 .single-course .llms-lesson-preview .llms-lesson-link {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   text-decoration: none;
 }

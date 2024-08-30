@@ -134,7 +134,6 @@ function translate_reply($translated)
 	$translated = str_ireplace('Change', '変更', $translated);
 	$translated = str_ireplace('Back to', '戻る', $translated);
 
-
 	$translated = str_ireplace('Enter', '', $translated);
 
 	return $translated;
@@ -242,7 +241,7 @@ function create_post_type()
 	register_post_type(
 		'quiz',
 		array(
-			'label' => 'クイズ',
+			'label' => '一問一答クイズ',
 			'public' => true,
 			'has_archive' => true,
 			'menu_position' => 5,
