@@ -708,15 +708,27 @@ function shortcode_p_fix($content)
 }
 add_filter('the_content', 'shortcode_p_fix');
 
+// Lifter LMSの翻訳
+add_filter( 'gettext', 'custom_change_quiz_information_text', 20, 3 );
+function custom_change_quiz_information_text( $translated_text, $text, $domain ) {
+    if ( 'Quiz Information' === $text && 'lifterlms' === $domain ) {
+        $translated_text = 'この問題の情報'; // 新しいテキストに変更
+    }
+    return $translated_text;
+}
 
 // クイズスタートボタンのテキスト変更
 function changeText()
 {
-	$button_text = 'クイズを始める！';
-	return $button_text;
+	return '練習問題を始める';
 }
-
 add_filter('lifterlms_start_quiz_button_text', 'changeText');
+
+function custom_quiz_button_text( $text, $quiz, $lesson ) {
+	// 新しいボタンテキストに変更
+    return '問題スタート！';
+}
+add_filter( 'lifterlms_begin_quiz_button_text', 'custom_quiz_button_text', 10, 3 );
 
 // ダッシュボード画面で、ユーザーからのキャンセル操作を不可にする処理
 add_filter('llms_allow_subscription_cancellation', '__return_false');
@@ -764,3 +776,5 @@ add_action('lifterlms_before_loop_item', 'course_catalog_thumbnail');
 // 	}
 // }
 // add_action('get_header', 'maintenance_mode');
+
+
