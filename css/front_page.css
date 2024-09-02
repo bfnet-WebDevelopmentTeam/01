@@ -23,10 +23,14 @@ p {
 }
 .home.woocommerce-demo-store #page #content .container {
   width: 100%;
+
 }
 .container {
   margin-right: 0;
   margin-left: 0;
+}
+.home.woocommerce-demo-store #page #content .container:before, .home.woocommerce-demo-store #page #content .container::after {
+  display: none;
 }
 #main-body {
   margin-top: 78.5px;
@@ -321,6 +325,11 @@ p {
   width: 52.4064171%;
 }
 
+.home.woocommerce-demo-store #page #content .lp_box04 .video-area .video-area-container .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* ↓↓bootstrap取り消し↓↓ */
 @media (min-width: 768px) {
   .lp_box05 .sns-container .sns-container-item {
@@ -380,16 +389,7 @@ p {
   .lp_box01 .banner_box {
     width: 32.4479167%;
   }
-  /* .lp_box02 {
-    padding: 1.82291667% 22.03125%;
-  } */
-  /* .lp_box02 .entry-btn {
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-    box-shadow: none;
-    width: 48.0446927%;
-  } */
+
   .lp_box01 {
     padding: 5.23255814% 2.3255814% 4.18604651%;
   }
@@ -467,13 +467,17 @@ p {
     padding-bottom: 3.75%;
     width: 33.4375%;
   }
-  .lp_box04 .video-area .video-area-container {
+  .home.woocommerce-demo-store #page #content .lp_box04 .video-area .video-area-container {
     display: flex;
-    width: 58.90625%;
+    width: 58.0208333%;
     justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
   }
-  .lp_box04 .video-area .video-area-container .container {
+  .home.woocommerce-demo-store #page #content .lp_box04 .video-area .video-area-container .container {
     width: 48.7179487%;
+    width: 48.6535009%;
+
   }
   .lp_box04 .video-area .video-area-txt {
     margin-bottom: 2.72232305%;

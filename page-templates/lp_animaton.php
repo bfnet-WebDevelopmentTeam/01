@@ -107,7 +107,7 @@ Template Post Type: post,page
 			</div>
 			<a href="<?php echo esc_url(home_url()); ?>/purchase/?plan=3623">
 				<div class="f-banner-img">
-					<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/06/lp_240628_01_2.jpg">
+					<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/09/lp_2400902_01.png">
 				</div>
 			</a>
 		</div>
@@ -123,7 +123,7 @@ Template Post Type: post,page
 					<!-- アニメLPページへCTAボタンの追加 -->
 					<div id="fix-cta-btn" class="fix-cta-container">
 						<a href="<?php echo esc_url(home_url()); ?>/purchase/?plan=3623">
-							<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/06/lp_240628_03.png" alt="">
+							<img src="<?php echo esc_url(home_url()); ?>/wp-content/uploads/2024/09/lp_2400902_02.png" alt="">
 						</a>
 					</div>
 

@@ -1,10 +1,3 @@
-<?php
-/*
-Template Name: トップページテンプレート
-Template Post Type: post,page
-*/  
-?>
-
 <?php get_header(); ?>
 
 	<div id="main-body">
